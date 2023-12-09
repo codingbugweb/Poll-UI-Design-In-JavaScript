@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Poll UI Design in JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+  <header>Poll UI Design</header>
+  <div class="poll-area">
+    <input type="checkbox" name="poll" id="opt-1">
+    <input type="checkbox" name="poll" id="opt-2">
+    <input type="checkbox" name="poll" id="opt-3">
+    <input type="checkbox" name="poll" id="opt-4">
+    <label for="opt-1" class="opt-1">
+      <div class="row">
+        <div class="column">
+          <span class="circle"></span>
+          <span class="text">HTML</span>
+        </div>
+        <span class="percent">40%</span>
+      </div>
+      <div class="progress" style='--w:40;'></div>
+    </label>
+
+    <label for="opt-2" class="opt-2">
+      <div class="row">
+        <div class="column">
+          <span class="circle"></span>
+          <span class="text">CSS</span>
+        </div>
+        <span class="percent">60%</span>
+      </div>
+      <div class="progress" style='--w:60;'></div>
+    </label>
+
+    <label for="opt-3" class="opt-3">
+      <div class="row">
+        <div class="column">
+          <span class="circle"></span>
+          <span class="text">JavaScript</span>
+        </div>
+        <span class="percent">30%</span>
+      </div>
+      <div class="progress" style='--w:30;'></div>
+    </label>
+
+    <label for="opt-4" class="opt-4">
+      <div class="row">
+        <div class="column">
+          <span class="circle"></span>
+          <span class="text">Python</span>
+        </div>
+        <span class="percent">50%</span>
+      </div>
+      <div class="progress" style='--w:50;'></div>
+    </label>
+  </div>
+</div>
+<script src="script.js"></script>
+  </body>
+</html>
